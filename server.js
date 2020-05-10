@@ -36,7 +36,7 @@ server.use((err, req, res, next) => {
 
 server.get("/", (req, res) => {
   res.json({
-    welcome: "Here's Johnny!",
+    welcome: "Here's Johnny",
   });
 });
 
